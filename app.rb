@@ -1,10 +1,8 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-	# get '/' do
-	# end
-
-	get '/index' do
+	# Returns a 200 status code
+	get '/' do
 		erb :index
 	end
 end
